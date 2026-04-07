@@ -20,6 +20,7 @@ By leveraging the **ReAct (Reasoning and Acting)** framework, the agent autonomo
 ### Prerequisites
 
 - **Ollama**: For hosting local fine-tuned models (e.g., DeepSeek-R1-0528-Qwen3-8B).
+- **Python**: 3.10 or higher.
 - **Databases**:
   - **MySQL**: For managing project data and agent memory.
   - **Neo4j**: For domain-specific Knowledge Graph (GraphRAG) reasoning.
@@ -29,6 +30,8 @@ By leveraging the **ReAct (Reasoning and Acting)** framework, the agent autonomo
 ### Installation
 
 ```
+conda create -n iwind python=3.10
+conda activate iwind
 git clone https://github.com/xzpAM/iwind.git
 cd Iwind
 pip install -r requirements.txt
