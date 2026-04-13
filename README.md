@@ -43,7 +43,13 @@ pip install -r requirements.txt
 
 All system parameters are managed in `llm_backend/.env`. The agent uses these settings to determine which local or online service to call during its reasoning process.
 
+#### **Accessing the Models**
 
+Currently, the system is configured to interface with the fine-tuned Iwind models via the local Ollama service.
+
+**Note on Weights and Training Code:** To ensure the integrity of the ongoing peer-review process and to protect proprietary intellectual property related to the offshore wind power failure analysis methodology, the specific model weights and the domain-specific reinforcement learning (RL) training scripts are currently restricted. These assets are undergoing final verification and legal compliance checks.
+
+We are committed to open science and plan to release the full model weights and training pipeline to the research community following the official publication of the associated research paper and the completion of our commercial licensing evaluation.
 
 Code snippet
 
