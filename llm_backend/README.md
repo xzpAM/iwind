@@ -2,6 +2,12 @@
 
 Iwind acts as a central orchestrator that communicates with various physics engines deployed as microservices. Each engine is encapsulated within a Docker container and accessed via specific tool-calling endpoints.
 
+#### **DeepWind (Frontend)**
+
+The primary user interface for the Iwind platform.
+
+- **Source Code Status**: The compiled frontend assets are located in the `static/` directory. **Note: Due to the ongoing patent application process, the raw frontend source code is currently restricted to protect unique UI/UX logic and integrated visualization algorithms.** Full access will be granted upon patent publication.
+
 ### **DeepWind (Frontend)**
 
 The primary user interface for the Iwind platform.
